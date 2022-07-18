@@ -9,6 +9,6 @@ const {
 
 router.get("/", getClients)
 router.get("/:id", getClientsById)
-router.get("/lastname/:last_name", getClientsByLastName)
+router.get("/name/:last_name", getClientsByLastName)
 
 module.exports = router
